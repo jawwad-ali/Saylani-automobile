@@ -1,0 +1,382 @@
+/* navbar  */
+::selection {
+    background-color: purple;
+}
+::placeholder{
+    padding:5px;
+}
+
+h1,
+h2 {
+    font-family: 'Archivo Black', sans-serif;
+    text-transform: uppercase;
+    font-size: 40px;
+}
+
+.navbar-nav {
+    padding: 15px;
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+}
+
+.logo {
+    height: 100px;
+    width: 300px;
+}
+
+.nav-item,
+.dropdown-item {
+    font-family: 'Anton', sans-serif;
+}
+
+.nav-item:hover {
+    animation: bounce;
+    animation-duration: 1s;
+    background-color: lightgreen;
+}
+
+.dropdown-item {
+    z-index: 1;
+    padding-top: 12px;
+}
+
+.dropdown-item:hover {
+    animation: bounce;
+    animation-duration: 1s;
+    background-color: aqua;
+    z-index: 1;
+
+}
+
+/* navbar ends */
+/* slider */
+.slider-img {
+    width: 100%;
+    height: 650px;
+}
+
+.bike-slider-img {
+    height: 500px;
+}
+
+/* sldier ends */
+/* about us */
+.about-us {
+    background-color: #0076db;
+    margin-top: 80px;
+    padding-bottom: 50px;
+}
+
+.about-us h2 {
+    padding-top: 120px;
+    color: white;
+}
+
+.about-text {
+    color: white;
+    padding-top: 50px;
+    font-size: 19px;
+    line-height: 28px;
+    text-align: justify;
+    font-family: 'Yantramanav', sans-serif;
+}
+
+/* about us ends */
+/* clients */
+.clients {
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.card {
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.5);
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    justify-content: space-around;
+}
+
+.card-img-top {
+    height: 320px;
+    padding: 25px;
+}
+
+.card-text {
+    font-family: 'Yantramanav', sans-serif;
+}
+
+.img-two {
+    height: 320px !important;
+}
+
+.margin-left {
+    margin-left: 100px;
+}
+
+.footer-text {
+    font-size: 18px;
+}
+
+/* clients end */
+
+/* contact us page */
+.cu-img {
+    width: 100%;
+    height: 400px;
+}
+
+/* contact us page ends */
+/* used bike */
+.used-bike-banner {
+    height: 550px;
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+/* side bar */
+.used-bikes-search-box {
+    width: 100%;
+    height: 700px;
+    border:1px solid silver;
+    position: relative;
+    bottom:50px;
+    top:40px;
+    padding:0px 20px;
+    right:30px;
+}
+
+.showing-results {
+    position: absolute;
+    left:0px;
+    width: 100%;
+    /* width: 190px; */
+    text-align: left;
+    text-transform: uppercase;
+    padding: 15px;
+    font-family: 'Lato', sans-serif;
+    font-size: 12px;
+
+}
+
+.input-field{
+    position: absolute;
+    top:50px;
+    left:0px;
+    width: 100%;
+}
+.user-input{
+    color:#353944;
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    text-decoration: none !important;
+}
+/* side bar ends */
+
+.page-wrapper{
+    display: flex;
+}
+.content-wrapper{
+    width: 100%;
+}
+.page-wrapper .content-wrapper .product{
+    flex: 1 0 auto ;
+}
+.product{
+    border:1px solid silver;
+    padding:12px;
+}
+.product-img-div{
+    height:200px;
+}
+.margin-top{
+    margin-top: 50px;
+}
+.product-img{
+    height: 150px;
+    width: 200px;
+}
+.product-initials{
+    height:200px;
+}
+.heading{
+    font-size:16px;
+    font-family: 'Lato', sans-serif;
+    color:#233d7b;
+    font-weight: bold;
+}
+.heading:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.city{
+    font-size:13px;
+}
+.product-details-span  p + p {
+    padding-left: 1em;
+}
+.product-details-span p{
+    font-size:12px;
+    display: inline;
+    text-align: left;
+}
+.last-update{
+    font-size:12px;
+    padding-top: 20px;
+}
+.product-details-right{
+    height:200px;
+}
+.price-details{
+    font-size:20px !important;
+}
+.btn-success{
+    font-size:12px !important;
+}
+.product-margin-left{
+    margin-left: 280px;
+}
+/* used bike end */
+
+
+/* responsive */
+@media only screen and (max-width:600px){
+    .logo{
+        width: 150px;
+    }
+    .slider-img , .cu-img , .used-bike-banner{
+        height:250px;
+    }
+    h1  h2{
+        font-size:28px;
+    }
+    .about-text{
+        font-size:16px;
+        font-weight: none ;
+    }
+   
+    .card{
+        position: relative;
+        top:300px;
+        left: 50%;
+        transform: translate(-50%, -50%) ;
+    }
+    footer p {
+        font-size:14px;
+    }
+
+    /* car.html */
+    .used-car-banner{
+        width: 100%;
+        height:250px;
+    }
+    .used-bikes-search-box{
+        position: relative;
+        top:400px;
+        left: 50%;
+        transform: translate(-50%, -50%) ;
+    }
+    .flex-column{
+        position: relative;
+        top:300px;
+        left: 50%;
+        transform: translate(-50%, -50%) ;
+    }
+    footer{
+        position: relative;
+        top:100px;
+    }
+    .product-margin-left{
+        margin-left: 0px;
+    }
+    .footer-text{
+        font-size:20px;
+    }
+    .fa-facebook , .fa-instagram , .fa-twitter{
+        font-size:22px;
+        padding-left:25px;
+    }
+    /* car.html ends */
+    /* contact.html */
+    .cu-img{
+        height:200px;
+    }
+    .contact-us-heading{
+        font-size:28px !important;
+    }
+    /* contact.html ends */
+}
+
+@media only screen and (min-width:768px){
+    .used-car-banner{
+        width: 100%;
+    }
+    .slider-img , .used-car-banner ,.used-bike-banner{
+        height: 450px;
+    }
+    .used-bikes-search-box{
+        position: relative;
+        top:400px;
+        left: 50%;
+        transform: translate(-50%, -50%) ;
+    }
+    .flex-column{
+        margin-left:20px;
+    }
+    .product{
+        margin-top: 1.5rem;
+    }
+    .product-margin-left{
+        margin-left: 20px;
+    }
+    .fa-facebook , .fa-instagram , .fa-twitter{
+        font-size:22px;
+        padding-left:25px;
+    }
+    .contact-us-footer{
+        position: relative;
+        top:244px;
+    }
+}
+
+@media only screen and (min-width:1024px){
+    .used-car-banner{
+        width: 100%;
+    }
+    .card{
+        position: relative;
+        top:300px;
+        left: 50%;
+        transform: translate(-50%, -50%) ;
+    }
+    .used-bikes-search-box{
+        position: relative;
+        top:400px;
+        left:0px;
+        width: 100%;
+        transform: translate(-50%, -50%) ;
+    }
+    .product-margin-left{
+        margin-left: 280px;
+    }
+    .contact-us-form{
+        position: relative;
+        top:42px;
+    }
+    footer{
+        margin-top: 50px;
+    }
+    .contact-us-footer{
+        position: relative;
+        top:535px;
+    }
+}
+@media only screen and (min-width:1366px){
+    .slider-img , .used-car-banner , .cu-img{
+        height:535px;
+    }
+    .used-car-banner , .used-bike-banner , .cu-img{
+        height:535px;
+    }
+}
+/* responsive */

@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saylani Task 4</title>
+
+    <!--Jquery Cdn -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- fontawesome cdn -->
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <!-- bs file -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- css file -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- google fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Lato&family=Roboto&family=Roboto+Condensed&family=Yantramanav&display=swap"
+        rel="stylesheet">
+
+
+
+    <!-- animate.css cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light ">
+            <a class="navbar-brand" href="index.html">
+                <img class="logo " src="images/logo2.jpg" alt="">
+            </a>
+            <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse " id="navbarNavDropdown">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item  ">
+                        <a class="nav-link text-muted" href="index.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item dropdown ">
+                        <a class="nav-link text-muted dropdown-toggle " href="#" id="navbarDropdownMenuLink"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Vehicles
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item text-muted" href="cars.html">Cars</a>
+                            <a class="dropdown-item text-muted" href="bikes.html"> Bikes</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact_us.html">Contact Us</a>
+                    </li>
+                   
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <!-- navbar ends -->
+
+    <div class="container-fluid px-0">
+        <div class="row no-gutters">
+            <div class="col-lg-12">
+                <img class="text-center used-bike-banner" src="images/used-bike-banner.jpg" alt="Contact Us">
+            </div>
+        </div>
+    </div>
+
+
+    <section class="page-wrapper">
+        <div class="container">
+            <div class="text-center mt-3">
+                <h1 style="font-size:28px; color:#0076db;">Used Bikes for Sale in Pakistan</h1>
+            </div>
+            <div class="row">
+                <div class="used-bikes-search-box col-sm-12 col-md-12 col-lg-2 offset-lg-1 ">
+                    <div class="result-heading">
+                        <div class="showing-results bg-primary text-white">show results by</div>
+                    </div>
+                    <div>
+                        <div class="result-heading">
+                            <div style="position: absolute; top:100px;" class="showing-results bg-primary text-white">
+                                make</div>
+                        </div>
+                        <form>
+                            <input type="text" class="input-field" placeholder="Search">
+
+                            <div>
+                                <a style="position: absolute; top:150px;" class="user-input" href="">
+                                    <input type="checkbox">
+                                    Toyota
+                                </a>
+
+                                <a style="position: absolute; top:175px;" class="user-input" href="">
+                                    <input type="checkbox">
+                                    Honda
+                                </a>
+
+                                <a style="position: absolute; top:200px;" class="user-input" href="">
+                                    <input type="checkbox">
+                                    Suzuki
+                                </a>
+
+                                <a style="position: absolute; top:225px;" class="user-input" href="">
+                                    <input type="checkbox">
+                                    Mitshubishi
+                                </a>
+
+                                <a style="position: absolute; top:250px;" class="user-input" href="">
+                                    <input type="checkbox">
+                                    Nissan
+                                </a>
+                            </div>
+                        </form>
+                    </div>
+
+                    <div style="position: absolute; top:250px; width: 100%; left:0px;">
+                        <div class="result-heading">
+                            <div style="position: absolute; top:100px;" class="showing-results bg-primary text-white">
+                                Year</div>
+                        </div>
+                        <form>
+                            <div>
+                                <a style="position: absolute; top:150px; left:20px;" class="user-input" href="">
+                                    <input type="checkbox">
+                                    2015
+                                </a>
+
+                                <a style="position: absolute; top:175px; left:20px;" class="user-input" href="">
+                                    <input type="checkbox">
+                                    2016
+                                </a>
+
+                                <a style="position: absolute; top:200px; left:20px;" class="user-input" href="">
+                                    <input type="checkbox">
+                                    2017
+                                </a>
+
+                                <a style="position: absolute; top:225px; left:20px;" class="user-input" href="">
+                                    <input type="checkbox">
+                                    2018
+                                </a>
+
+                                <a style="position: absolute; top:250px; left:20px;" class="user-input" href="">
+                                    <input type="checkbox">
+                                    2019
+                                </a>
+                                <a style="position: absolute; top:275px; left:20px;" class="user-input " href="">
+                                    <input type="checkbox">
+                                    2020
+                                </a>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <!-- main section -->
+
+                <div id="content-wrapper" class="d-flex flex-column mt-5">
+                    <div class="col-lg-9 product ">
+                        <div class="product-img-div">
+                            <img class="product-img" src="images/125.jfif" alt="">
+                        </div>
+                        <div class="product-initials">
+                            <h2 class="heading">honda 125 for sale in karachi </h2>
+                            <p class="city">Karachi</p>
+                            <span class="product-details-span">
+                                <p>2015</p>
+                                <p>5500 Km</p>
+                                <p>125 CC</p>
+                            </span>
+                            <p class="last-update">Updated 3 days ago</p>
+                        </div>
+                        <div class="product-initials-right text-center">
+                            <p class="price-details ">
+                                PKR 75,000
+                            </p>
+                            <div>
+                                <button class="btn btn-success "> <i class="fa fa-phone"></i> &nbsp; Show Phone
+                                    No.</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="content-wrapper" class="d-flex flex-column mt-5">
+                    <div class="col-lg-9 product ">
+                        <div class="product-img-div">
+                            <img class="product-img" src="images/cd70.jfif" alt="">
+                        </div>
+                        <div class="product-initials">
+                            <h2 class="heading">Unique cd 70 for sale in karachi </h2>
+                            <p class="city">Karachi</p>
+                            <span class="product-details-span">
+                                <p>2015</p>
+                                <p>7854 Km</p>
+                                <p>70 CC</p>
+                            </span>
+                            <p class="last-update">Updated 17 days ago</p>
+                        </div>
+                        <div class="product-initials-right text-center">
+                            <p class="price-details ">
+                                PKR 28,000
+                            </p>
+                            <div>
+                                <button class="btn btn-success "> <i class="fa fa-phone"></i> &nbsp; Show Phone
+                                    No.</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="content-wrapper" class="d-flex flex-column mt-5 product-margin-left">
+                    <div class="col-lg-9 product ">
+                        <div class="product-img-div">
+                            <img class="product-img" src="images/sp70.jfif" alt="">
+                        </div>
+                        <div class="product-initials">
+                            <h2 class="heading">power cd 70 for sale in karachi </h2>
+                            <p class="city">Karachi</p>
+                            <span class="product-details-span">
+                                <p>2018</p>
+                                <p>3500 Km</p>
+                                <p>70 CC</p>
+                            </span>
+                            <p class="last-update">Updated 11 days ago</p>
+                        </div>
+                        <div class="product-initials-right text-center">
+                            <p class="price-details ">
+                                PKR 38,000
+                            </p>
+                            <div>
+                                <button class="btn btn-success "> <i class="fa fa-phone"></i> &nbsp; Show Phone
+                                    No.</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="content-wrapper" class="d-flex flex-column mt-5 ">
+                    <div class="col-lg-9 product ">
+                        <div class="product-img-div">
+                            <img class="product-img" src="images/yam100.jfif" alt="">
+                        </div>
+                        <div class="product-initials">
+                            <h2 class="heading">Yamaha 100 cc for sale in karachi </h2>
+                            <p class="city">Karachi</p>
+                            <span class="product-details-span">
+                                <p>2016</p>
+                                <p>4125 Km</p>
+                                <p>100 CC</p>
+                            </span>
+                            <p class="last-update">Updated 11 days ago</p>
+                        </div>
+                        <div class="product-initials-right text-center">
+                            <p class="price-details ">
+                                PKR 49,000
+                            </p>
+                            <div>
+                                <button class="btn btn-success "> <i class="fa fa-phone"></i> &nbsp; Show Phone
+                                    No.</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="content-wrapper" class="d-flex flex-column mt-5 product-margin-left">
+                    <div class="col-lg-9 product ">
+                        <div class="product-img-div">
+                            <img class="product-img" src="images/lahore125.jfif" alt="">
+                        </div>
+                        <div class="product-initials">
+                            <h2 class="heading">Lahore 125 cc for sale in lahore </h2>
+                            <p class="city">Lahore</p>
+                            <span class="product-details-span">
+                                <p>2018</p>
+                                <p>750 Km</p>
+                                <p>125 CC</p>
+                            </span>
+                            <p class="last-update">Updated 5 mins ago</p>
+                        </div>
+                        <div class="product-initials-right text-center">
+                            <p class="price-details ">
+                                PKR 92,000
+                            </p>
+                            <div>
+                                <button class="btn btn-success "> <i class="fa fa-phone"></i> &nbsp; Show Phone
+                                    No.</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="content-wrapper" class="d-flex flex-column mt-5 ">
+                    <div class="col-lg-9 product ">
+                        <div class="product-img-div">
+                            <img class="product-img" src="images/honda70.jfif" alt="">
+                        </div>
+                        <div class="product-initials">
+                            <h2 class="heading">Honda 70 cc for sale in lahore </h2>
+                            <p class="city">Lahore</p>
+                            <span class="product-details-span">
+                                <p>2019</p>
+                                <p>1150 Km</p>
+                                <p>70 CC</p>
+                            </span>
+                            <p class="last-update">Updated 85 mins ago</p>
+                        </div>
+                        <div class="product-initials-right text-center">
+                            <p class="price-details ">
+                                PKR 72,000
+                            </p>
+                            <div>
+                                <button class="btn btn-success "> <i class="fa fa-phone"></i> &nbsp; Show Phone
+                                    No.</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <footer>
+        <div class="container-fluid bg-primary">
+            <div class="row">
+                <div class="col-lg-12 text-center pt-4 ">
+                    <p>
+                        <button class="btn btn-warning">
+                            <a href = "mailto: alijawwad001@gmail.com">Send Email</a>
+                        </button>
+                    </p>
+                    <a href="">
+                        <i class="text-white fa fa-facebook"></i>
+                    </a>
+                    <a href="">
+                        <i class="text-white fa fa-twitter"></i>
+                    </a>
+                    <a href="">
+                        <i class="text-white fa fa-instagram"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
